@@ -10,7 +10,7 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from src.main import read_text_file
+from src.lexical_analyzer import read_text_file
 
 class TestReadTextFile(unittest.TestCase):
     def setUp(self):

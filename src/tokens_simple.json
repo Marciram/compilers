@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "content": "2",
+        "type": "number"
+    },
+    {
+        "id": 1,
+        "content": "+",
+        "type": "operator"
+    },
+    {
+        "id": 2,
+        "content": "3",
+        "type": "number"
+    },
+    {
+        "id": 3,
+        "content": "*",
+        "type": "operator"
+    },
+    {
+        "id": 4,
+        "content": "4",
+        "type": "number"
+    }
+]

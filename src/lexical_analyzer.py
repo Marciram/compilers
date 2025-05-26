@@ -198,8 +198,8 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Define input and output file paths
-    file_path = os.path.join(script_dir, 'code.txt')    
-    file_path_json = os.path.join(script_dir, 'tokens.json')    
+    file_path = os.path.join(script_dir, 'code_simple.txt')    
+    file_path_json = os.path.join(script_dir, 'tokens_simple.json')    
     
     try:
         # Execute the tokenization pipeline
