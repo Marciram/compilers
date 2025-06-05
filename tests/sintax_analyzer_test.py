@@ -3,11 +3,9 @@ from enum import Enum
 import sys
 from pathlib import Path
 
-# Add the project root to Python path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root)) 
 
-# Import the classes to be tested (assuming they're in a module named 'parser')
 from src.sintax_analyzer import TokenType, Token, Program, VarDecl, Assignment, BinOp, Num, Var, Parser
 
 class TestTokenType(unittest.TestCase):
